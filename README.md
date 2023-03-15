@@ -162,6 +162,11 @@ Escaneando el SMB.
     smbclient -U “DOMAINNAME\Username” \\\\IP\\IPC$ password
     smbclient -U "username" -P "Password" \\\\IP\\IPC$
 
+**Otros**
+
+    crackmapexec smb <IP> -u 'user' -p 'password' : Si esto nos contesta con un [+] el usuario es valido
+    crackmapexec winrm <IP> -u 'user' -p 'password' : si esto nos pone un Pwn3d podemos conectanos con evilwinrm
+    evil-winrm -i <IP> -u 'user' -p 'pass'
 
 ### Vulnerabilidades conocidas.
 ```bash
