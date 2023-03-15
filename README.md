@@ -178,7 +178,9 @@ Podemos checar que sea una version inverior a 7.7 el cual es vulnerable a User E
 
 ### Recon
 Podemos tratar de obtener el banner grabbing.
-telnet <IP> 22
+
+    telnet <IP> 22
+
 ### BruteForce
 Fuerza bruta con hydra y un diccionario.
 
@@ -210,4 +212,5 @@ Tambien podemos usar la herramienta en consola **searchsploit**:
  **Ver el exploit 37292.c sin copiarlo.**
  
      searchsploit -x linux/local/37292.c 
+
 
